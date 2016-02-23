@@ -10,7 +10,7 @@ public class Account implements Balanceable, Withdrawable, Depositable{
     private double balance;
 
     public Account() {
-        this.balance = 1000.00;
+        this.balance = 1000.00
     }
 
     public void deposit(double amount) {
@@ -25,11 +25,9 @@ public class Account implements Balanceable, Withdrawable, Depositable{
         return balance;
     }
 
-    @Override
-    public void setBalance(double amount) {
+    public void setBalance(amount) {
         this.balance = amount;
     }
-
 
     public String getBalanceFormatted(){
         double balance = this.getBalance();

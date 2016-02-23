@@ -3,7 +3,6 @@ package business;
 /**
  * Created by temp on 2/19/2016.
  */
-
 public class CheckingAccount extends Account {
     private double monthlyFee;
 
@@ -34,5 +33,3 @@ public class CheckingAccount extends Account {
         return monthlyFeeFormatted;
     }
 }
-
-

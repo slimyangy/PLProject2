@@ -3,6 +3,7 @@ package business;
 /**
  * Created by temp on 2/19/2016.
  */
+
 import java.util.Scanner;
 
 
@@ -56,6 +57,6 @@ public class AccountApp {
         System.out.println("MonthlyFees");
         System.out.println("Checking fee:          " + getMonthlyFeeFormatted());
         System.out.println("Final Blance");
-        System.out.println("Checking: " + getBalanceFormatted());
+        System.out.println("Checking: " + getBalanceFormatterd());
     }
 }

@@ -1,42 +1,45 @@
 package Yang;
 
 public abstract class Person {
-
     private String firstName;
     private String lastName;
     private String email;
 
     public Person() {
-        super();
         firstName = "";
         lastName = "";
         email = "";
     }
 
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
     public String getFirstName() {
         return firstName;
     }
+
+    public void setFirstName(firstName) {
+        this.firstName =  firstName;
+    }
+
     public String getLastName() {
         return lastName;
     }
+
+    public void setLastName(lastName) {
+        this.lastName =  lastName;
+    }
+
     public String getEmail() {
         return email;
     }
 
-    abstract void getDisplayTest
+    public void setEmail(email) {
+        this.email =  email;
+    }
 
     @Override
     public String toString() {
-        return super.toString() + "Name: " + firstName + " " + lastName + "\n" + "Email: " + email;
+        return "Name: " + firstName + lastName + "\n" + "Email: " + email;
     }
+
+    public abstract String getDisplayText();
+
 }
